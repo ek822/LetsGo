@@ -1,0 +1,25 @@
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+  background: #109177;
+}
+.buttons {
+  margin-top: 30px;
+}
+
+.top-button {
+  border: #f33 solid 2px;
+  background-color: #f33;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+.top-button:hover {
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+}
+</style>

@@ -1,0 +1,78 @@
+body{
+  font-family: 'Dosis', sans-serif;
+  background-image: url(http://getwallpapers.com/wallpaper/full/9/9/b/504809.jpg);
+}
+.container{
+	height: 330px
+	width: 100px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	background: rgba(255, 255, 255);
+	padding: 20px; 
+	border-radius: 60px;
+}
+
+.title{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #000000; 
+}
+
+.question{
+	padding: 20px;
+	font-size: 22px;
+	background: #f01343;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+	color: #ffff;
+}
+
+.option{
+	width: 470;
+	display: inline-block;
+	padding: 10px 0 10px 15px;
+	vertical-align: middle;
+	background: rgba(255, 255, 255, 0.5);
+	margin: 10px 0 10px 10px;
+	color: #000000;
+	border-radius: 20px;
+}
+
+.option:hover{
+	background: #08038C;
+	color: #ffff;
+}
+
+.next-btn{
+	border-radius: 5px;
+	outline: none;
+	font-family: 'Dosis', sans-serif;
+	background: #f01343;
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	cursor: pointer;
+	float: right;
+	margin: 10px;
+	color: #ffff;
+}
+
+.next-btn:hover{
+	background: #08038C;
+	color: #f6f6f6;
+}
+
+.result{
+	height: 100px;
+	text-align: center;
+	font-size: 75px;
+}
+
+.option input:checked .option{
+	background: #08038C;
+	color: #000;
+}
