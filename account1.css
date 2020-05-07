@@ -5,11 +5,18 @@ body{
   background-image: url(http://getwallpapers.com/wallpaper/full/9/9/b/504809.jpg);
 }
 
-/*https://codepen.io/banunn/pen/AFnal */
 .btn {
-  display: inline-block;
   background: #3498db;
   border: 2px solid #3498db;
+  padding: .5em 2em;
+  color: black;
+  margin-right: .5em;
+  border-radius: 50px;
+}
+
+.btn2 {
+  background: #ff0000;
+  border: 2px solid #ff0000;
   padding: .5em 2em;
   color: black;
   margin-right: .5em;
@@ -47,7 +54,7 @@ body{
   border-radius: 24px;
   transition: 0.25s;
 }
-.box input[type = "password"]:focus,.box input[type = "password"]:focus{
+.box input[type = "email"]:focus,.box input[type = "password"]:focus{
   width: 280px;
   border-color: #2ecc71;
 }
@@ -90,3 +97,5 @@ body{
   .box input[type = "signup"]:hover{
     background: #2ecc71;
   }
+
+  /*https://codepen.io/banunn/pen/AFnal */

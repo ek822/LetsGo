@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<!--Documentation: https://www.youtube.com/watch?v=HV7DtH3J2PU-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>َLogin Form</title>
+    <link rel="stylesheet" href="account1.css">
+  </head>
+<body>
+
+<div class="box" action="account1.html" method="post">
+  <h1>Sign up</h1>
+  <input id="txtName" type="name" name="" placeholder="Name">
+  <input id="txtPassword" type="password" name="" placeholder="Password">
+  <input id="txtEmail" type="email" name="" placeholder="Email">
+  <button id="btnSignUp" class="btn2" onclick="window.location.href = 'main.html';">Home</button>
+  <button id="btnSignUp" onclick="thankyou()" class="btn">Sign Up</button>
+
+<!--JavaScript-->
+<script>
+function thankyou() {
+  alert("Thank you for signing up. You should recieve an email for further steps.");
+}
+</script>
+
+  <!--<button type="btnSignUp" class="btn" id="btnSignUp">Sign Up</button>-->
+
+  <!--<input id="btnLogin" type="signin" name="" value="Sign In">
+  <input id="btnSignUp" type="signup" name="" value="Sign Up">
+  </form-->
+  </div>
+
+
+<!--FIRE BASE!!!!!-->
+
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase Everything -->
+  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase.js"></script>
+
+</body>
+</html>

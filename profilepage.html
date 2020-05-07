@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link href = "profilepage.css" rel="stylesheet">
+    <title>Grace's Profile</title>
+    <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+	<!--api for later <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="stars.js"></script>-->
+</head>
+<body>
+	<div id = "container">
+
+		 <!--this is the header--> 
+		<div id = "header">
+			<div id = "header_elements">
+				<div>
+				<center>
+                    <button id="btnSignUp" class="btn2" onclick="window.location.href = 'main.html';">Home</button>
+					<input id = "search"placeholder="Search" type="text" name="search">
+                    <p>Your Account</p>
+					<!--<p>Messages</p>-->
+				</center>
+				</div>
+			</div>
+		</div>
+
+		<!--this line divides the header with the rest of the page-->
+		<hr class ="divider">
+
+
+		<!--this is the left side of the page-->
+		<div id ="textbox">
+			
+				<div id = "leftbox">
+
+			<!--This is the user's profile picture-->
+					<img src = "https://i.guim.co.uk/img/media/0ccb2ab8101509c1f227f8848a46ea96bd03e850/0_861_2832_2815/master/2832.jpg?width=300&quality=85&auto=format&fit=max&s=363ac0bec5e79018e48609df23facc20" alt = "userpic">
+				
+
+					<span class = "smalltext"><p>Past Bookings</p></span> <hr class ="divider">
+					<span class = "info"><p>Greece</p></span>
+                    <span class = "info"><p>Vietnam</p></span>
+                    <button id="btnBooking" class="btn2" onclick="window.location.href = 'bookings.html';">Booking Reciept</button>
+				</div>
+			
+
+		<!--end of left box-->
+
+			<!--this is the right side of the page-->
+				<div id = "rightbox"> 
+					<div id = "name"><p>Grace Williams</p>
+						<p id = "location"><img src = "travelpin.png">Philadelphia, PA</p>
+					</div>
+
+					<p id = "job" class = "grouping_for_css">GOLD Member</p>
+
+					<div id = "userinfo">
+						<span class = "smalltext"><p>Personal INFORMATION</p></span>
+						<hr class ="divider">
+							<span id = "email" class = "info1"><p>Email:<p></span> <span class = "info1"><p>grace@gmail.com</p></span>
+						
+					</div>
+
+					<div id = "basicinfo">
+						<span class = "smalltext"><p>BASIC INFORMATION  </p></span>
+						
+						<hr class ="divider">
+				
+							<span class = "info0"><p>Gender:</p></span> <span class = "info0"><p>Female</p></span>
+						
+					</div>
+
+				</div> 
+			<!--end of right box-->
+
+
+		</div>
+
+
+
+	</div>
+
+</body>
+
+</html>
