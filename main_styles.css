@@ -18,7 +18,7 @@ nav {
 }
 
 .topnav {
-  background-color: #D3D3D3;
+  background-color: rgb(226, 114, 183);
   overflow: hidden;
   width: 100%;
 }
@@ -54,16 +54,17 @@ article {
   float: left;
   padding: 15px;
   width: 99%;
-  background-color: #f1f1f1;
+  background-image: url("https://images.unsplash.com/photo-1536637304349-9380cadaf33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+	background-size: cover;
+	background-repeat: no-repeat;
   height: 400px;
+  color: black
 }
 
 footer {
-  background-color: rgb(255, 255, 255);
   padding: 0;
   width: 99%;
   text-align: center;
-  color: white;
 }
 
 .bottomnav a {
